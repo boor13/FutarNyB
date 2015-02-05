@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>KPortál - <?php echo $pageTitle; ?></title>
+        <title>Futar - <?php echo $pageTitle; ?></title>
         <link rel="stylesheet" type="text/css" href="views/css/base.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         
@@ -18,6 +18,6 @@
     <body>
 
         <div id="header">
-            <h1 id="sitename">KPortál</h1>        
+            <h1 id="sitename">Futár</h1>        
             <?php include('navigation.php'); ?>
         </div>
