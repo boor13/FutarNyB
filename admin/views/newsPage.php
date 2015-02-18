@@ -7,10 +7,6 @@
     <br>
     <input type="text" name="title">
     <br>
-    <label>bevezetö:</label>
-    <br>
-    <textarea name="text"></textarea>
-    <br>
     <label>Szövegtörzs:</label>
     <br>
     <textarea name="text"></textarea>

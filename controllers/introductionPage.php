@@ -1,10 +1,14 @@
 <?php
 
-$pageTitle ="Bemutatkozás";
+$pageTitle = "Bemutatkozás";
 
-$query = "SELECT * FROM  `pages` WHERE `id`='bemutatkozas'";
+// oldal tartalmának betöltése adatbázisból:
+
+$query = "SELECT * FROM `pages` WHERE `id`='bemutatkozas'";
 $result = $db->query($query);
 if ($db->errno) {
-    die($db->error);
+  die($db->error);
 }
+
+// kiszedem az eredményből az 1db sort:
 $page = $result->fetch_array();
