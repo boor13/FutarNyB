@@ -1,6 +1,7 @@
 <?php include('includes/header.php'); ?>
 
-<div id="content">
+<div id="content" class="row">
+    <div class="col-md-12">
   <h2><?php echo $page['title']; ?></h2>
   
   <?php echo $page['text']; ?>
@@ -24,6 +25,7 @@
     
   <p>Google map
 
+</div>
 </div>
 
 <?php

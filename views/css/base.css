@@ -4,49 +4,57 @@
 */
 
 body {
-  margin: 0;
+    margin: 0;
+    background-image: url(../../Logo/box.jpg);
+    background-repeat: repeat;
+
 }
 
 #header {
-  background-color: #c194f5;
-  padding: 10px 20px;
-  max-width: 960px;
-  margin: 0 auto;
+    background-color: #c194f5;
+    padding: 10px 20px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 #header h1#sitename {
-  margin: 30px 0 30px 0;
+    margin: 30px 0 30px 0;
 }
 
 #content {
-  padding: 10px 20px;
-  background-color: #ede8be;
-  max-width: 960px;
-  margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #ede8be;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .news {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
+
+.news .tag {
+    text-transform: uppercase;
+}
+
 .news .title {
-  border-bottom: 1px solid #555;
-  color: #555;
-  font-weight: bold;
-  font-size: 1.3em;
+    border-bottom: 1px solid #555;
+    color: #555;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 .news .text {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 .news .date {
-  text-align: right;
-  font-style: italic;
+    text-align: right;
+    font-style: italic;
 }
 
 #footer {
-  background-color: #7b0603;
-  color: white;
-  padding: 10px 20px;
-  max-width: 960px;
-  margin: 0 auto;
+    background-color: #7b0603;
+    color: white;
+    padding: 10px 20px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 #header #navigation a {
@@ -56,4 +64,10 @@ body {
 #header #navigation a:hover {
     color: black;
     background: #dddddd;
+}
+
+.tablazat th,
+.tablazat td {
+    border: 1px solid black;
+    padding: 5px;
 }

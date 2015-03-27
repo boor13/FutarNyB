@@ -31,8 +31,8 @@ if (isset($_POST['loginSubmit'])) {
 		$_SESSION['name'] = $uData['name'];
 		$_SESSION['rights'] = $uData['rights'];
 	}
-	
-	header("Location: $HOST/admin");
+
+	header("Location: $HOST/?q=belepes");
 	exit;
 }
 
