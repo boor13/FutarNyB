@@ -28,6 +28,7 @@ if (isset($_POST['loginSubmit'])) {
 	if ($success) {
 		// admin oldalakhoz hozzáférés
 		$_SESSION['logged'] = true;
+                $_SESSION['id'] = $uData['id'];
 		$_SESSION['name'] = $uData['name'];
 		$_SESSION['rights'] = $uData['rights'];
 	}

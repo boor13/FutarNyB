@@ -5,6 +5,4 @@
       <li role="presentation"><a href="?q=belepes">Belépés</a></li>
       <li role="presentation"><a href="?q=kapcsolat">Kapcsolat</a></li>
       <li role="presentation"><a href="?q=csomag">Csomagok</a></li>
-      <li role="presentation"><a href="?q=szalitas">Szállitási pontok</a></li>
-      
     </ul>

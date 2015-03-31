@@ -42,9 +42,9 @@ switch ($page) {
         include ('controllers/packetPage.php');
         include('views/packetPage.php');
         break;
-    case 'szalit':
-        include('controllers/szalitPage.php');
-        include('views/szalitPage.php');
+    case 'csomagreszletek':
+        include ('controllers/packetDetailsPage.php');
+        include('views/packetDetailsPage.php');
         break;
     case 'kijelentkezes':
 	session_unset();
